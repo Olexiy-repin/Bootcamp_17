@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+}
+
+.banner {
+  height: 600px;
+  background-image: url("../images/car.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.team {
+  padding: 100px 0;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .banner {
+    background-image: url("../images/car@2x.jpg");
+  }
+}
+
+.footer {
+  background-color: cadetblue;
+  padding: 50px 0;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.social-list__link {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: yellow;
+  /* background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.social-list__link svg {
+  fill: yellowgreen;
+  stroke: tomato;
+}
+
+.social-list__link:hover svg {
+  fill: tomato;
+  stroke: yellowgreen;
+}
+
+.social-list__svg {
+  width: 40px;
+  height: 40px;
+}
+
+.social-list__link_telegram {
+  background-image: url("../images/telegram.svg");
+}
+
+/* .social-list__link_facebook {
+  background-image: url("../images/facebook.svg");
+}
+
+.social-list__link_twitter {
+  background-image: url("../images/twitter.svg");
+} */
+
+/* 
+block__element_modifier 
+block__element--modifier 
+*/
+
+.logotype {}
+
+.navigation {}
+
+.navigation__item {}
